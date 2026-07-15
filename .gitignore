@@ -1,0 +1,11 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Never publish line-day source tables used before color quantization.
+data/main_figure_1/*line_daily*.csv
